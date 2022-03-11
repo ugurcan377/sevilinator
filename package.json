@@ -1,11 +1,23 @@
 {
   "name": "sevilinator",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "A personal finance management software",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/ugurcan377/sevilinator.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ugurcan377/sevilinator/issues"
+  },
+  "homepage": "https://github.com/ugurcan377/sevilinator#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "tauri:build": "vue-cli-service tauri:build",
+    "tauri:serve": "vue-cli-service tauri:serve"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -18,7 +30,8 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-tauri": "~1.0.0-rc.1"
   },
   "eslintConfig": {
     "root": true,
